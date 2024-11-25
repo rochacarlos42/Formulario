@@ -1,11 +1,12 @@
 body {
-    background-color: aquamarine;
-}
+    background: linear-gradient(to right, aquamarine, rgb(20, 153, 109));
+  }
+  
 
 form {
-    padding: 15px;
-    
-}
+    line-height: 24px; 
+  }
+  
 
 
 
