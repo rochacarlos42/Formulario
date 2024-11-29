@@ -1,6 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
 <link rel="stylesheet" href="style.css">
 
-<h1>Crie sua conta</h1>
+<h1>Cadastre sua conta</h1>
 <form class="formulario" method="post">
     <label for="nome">Nome</label>
     <input type="text" name="nome"><br>
@@ -16,4 +25,22 @@
     <input type="password" name="senha"><br><br>
 </form>
 
-<button class="botaoCriarConta" formaction="http://localhost:3003/usuarios">Criar conta</button> 
+   
+<button id="alerta">Criar conta</button>
+<script>
+     var ale = document.getElementById("alerta")
+        ale.onclick = function() {
+            alert("Conta criada com sucesso")
+        }
+</script>
+    
+</body>
+</html>
+
+
+ 
+   
+   
+  
+      
+
