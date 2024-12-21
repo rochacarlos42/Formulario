@@ -1,13 +1,36 @@
 body {
-    background: linear-gradient(to right, aquamarine, rgb(20, 153, 109));
+    background:rgb(12, 12, 160);
   }
   
-
+h1 {
+  font-family: ubuntu,sans-serif;
+  color: #00A97F;
+  margin-left: 50px;
+}
 form {
     line-height: 24px; 
   }
   
+input {
+  
+  width: 35%;
+}
 
+label {
+  color: #00A97F;
+  font-family: ubuntu,sans-serif;
+}
+
+img {
+  float: right;
+  
+  width: 64%;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
 
 
 #alerta {

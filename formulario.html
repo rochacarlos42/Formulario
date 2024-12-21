@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
     
 <link rel="stylesheet" href="style.css">
 
+<img src="./img/point bet.png" alt="">
+
 <h1>Cadastre sua conta</h1>
 <form class="formulario" method="post">
-    <label for="nome">Nome</label>
+    <label for="nome">Nome</label> <br>
     <input type="text" name="nome"><br>
-    <label for="email">e-mail</e-mail>
+    <label for="email">e-mail</e-mail><br>
     <input type="email" name="email"><br>
-    <label for="CPF">CPF</label>
+    <label for="CPF">CPF</label><br>
     <input type="numbers" name="CPF" id="CPF"><br>
-    <label for="telefone">Telefone</label>
-    <input type="numbers" name="telefone"><br>
-    <label for="senha">senha</label>
-    <input type="password" name="senha">
-    <label for="senha">Confirme sua senha</label>
+    <label for="tel">Telefone</label><br>
+    <input type="tel" name="telefone"><br>
+    <label for="senha">senha</label><br>
+    <input type="password" name="senha"><br>
+    <label for="senha">Confirme sua senha</label><br>
     <input type="password" name="senha"><br><br>
 </form>
 
    
 <button id="alerta">Criar conta</button>
+
+<p>* Somente para maiores de 18 anos.</p>
 <script>
      var ale = document.getElementById("alerta")
         ale.onclick = function() {
